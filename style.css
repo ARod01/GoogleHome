@@ -48,3 +48,38 @@ li{
     color: #fff;
     font-size: 1.5rem;
 }
+
+.main__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.main__logo img{
+    width: 20vw;
+}
+.main__search{
+    border: 1px solid #cfcfcf;
+    border-radius: 2.5rem;
+    width: 50vw;
+    margin: auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__search img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.main__search input{
+    border: none;
+    font-size: 2rem;
+    width: 80%;
+    height: 2.5rem;
+    outline: none;
+}
+.main__search:hover{
+    box-shadow: 2px 2px 2px 1px #cfcfcf;
+}
