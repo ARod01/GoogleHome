@@ -63,7 +63,7 @@ li{
 .main__search{
     border: 1px solid #cfcfcf;
     border-radius: 2.5rem;
-    width: 50vw;
+    width: 90vw;
     margin: auto;
     height: 5rem;
     display: flex;
@@ -118,6 +118,7 @@ li{
     margin: 1rem;
 }
 .main__buttons{
+    visibility: hidden;
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -134,4 +135,13 @@ li{
 }
 .main__buttons button:hover{
     border: 1.5px solid #dfdfdf;
+}
+
+@media only screen and (min-width:480px) {
+    .main__search{
+        width: 50vw;
+    }
+    .main__buttons{
+        visibility: visible;
+    }
 }
