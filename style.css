@@ -117,3 +117,21 @@ li{
 .item__list-right li{
     margin: 1rem;
 }
+.main__buttons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.main__buttons button{
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    border-radius: .5rem;
+    background-color: #efefef;
+    
+}
+.main__buttons button:hover{
+    border: 1.5px solid #dfdfdf;
+}
